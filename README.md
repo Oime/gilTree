@@ -7,6 +7,7 @@ Librairie JavaScript de création d'arbres généalogiques interactifs avec zoom
 - **Arbre généalogique interactif** : Affichage d'un arbre généalogique avec cartes personnalisées
 - **Navigation fluide** : Zoom, déplacement par glisser-déposer, centrage automatique
 - **Focus dynamique** : Changement de perspective en cliquant sur une personne
+- **Recherche intégrée** : Barre de recherche pour trouver et naviguer vers une personne
 - **Affichage optimisé** : Seule la branche active est affichée (ascendants et descendants)
 - **Styles personnalisables** : Couleurs différenciées par genre, images de profil
 - **Contrôles intégrés** : Boutons de zoom et de centrage
@@ -100,6 +101,7 @@ tree.center();
 ### Interactions utilisateur
 
 - **Clic sur une carte** : Change le focus sur cette personne
+- **Barre de recherche** : Tape le nom d'une personne pour la rechercher et naviguer vers elle
 - **Glisser-déposer** : Déplace l'arbre
 - **Molette de la souris** : Zoom avant/arrière
 - **Double-clic** : Centre l'arbre
@@ -124,6 +126,10 @@ Les styles peuvent être personnalisés via les classes CSS :
 - `.sft-img` : Images de profil
 - `.sft-name` : Noms des personnes
 - `.sft-focus` : Personne actuellement focalisée
+- `.sft-search` : Conteneur de la barre de recherche
+- `.sft-search-input` : Champ de saisie de recherche
+- `.sft-search-results` : Conteneur des résultats de recherche
+- `.sft-search-result` : Élément de résultat individuel
 
 ## Exemple complet
 
