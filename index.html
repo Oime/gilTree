@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Arbre généalogique</title>
+    <link rel='shortcut icon' href='./img/arbre.ico' type='image/x-icon'>
+    <link rel='stylesheet' href='./lib/gilTree.css'>
+    <script src='./data.js'></script>
+    <script src='./lib/gilTree.js'></script>
+    <style>
+        body {
+            margin:0;
+            padding:0;
+        }
+    </style>
+</head>
+<body>
+    <div id='container'></div>
+    <script>
+        const tree = new SimpleFamilyTree('#container', people);
+        tree.setFocus("19841224");
+    </script>
+</body>
+</html>
